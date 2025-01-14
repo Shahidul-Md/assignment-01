@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* Header styles */
+
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.banner{
+    display:flex;
+    background-color: #C6E4D6;
+    margin: 10px;
+    padding: 80px 100px 80px 100px;
+    /* width: 1150px; */
+    /* height: 500px; */
+    border-radius: 24px;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+.banner-title{
+    font-size:24px;
+    font-weight:500;
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.banner-description{
+    width: 500px;
+    font-family: Fira Sans;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.btn-primary{
+    background-color:#006A50;
+    color:white;
+    font-weight: semibold;
+    font-size: 16px;
+    padding: 14px 25px 14px 25px;
+    border: none;
+    border-radius:7px;
+    -webkit-border-radius:7px;
+    -moz-border-radius:7px;
+    -ms-border-radius:7px;
+    -o-border-radius:7px;
+}
+
+
