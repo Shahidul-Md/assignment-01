@@ -7,7 +7,7 @@
 
 
 .open-sans-normal {
-  font-family: "Open Sans", serif;
+  font-family: "Fira Sans", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -15,10 +15,14 @@
     "wdth" 100;
 }
 
+body{
+    font-family: "Fira Sans";
+}
+
 .banner{
     display:flex;
     background-color: #C6E4D6;
-    margin: 10px;
+    margin: 10px 10px 60px 10px;
     padding: 80px 100px 80px 100px;
     /* width: 1150px; */
     /* height: 500px; */
@@ -40,10 +44,15 @@
 
 .banner-description{
     width: 500px;
-    font-family: Fira Sans;
+    /* font-family: "Fira Sans"; */
     font-weight: 700;
     font-size: 45px;
 }
+
+/* .card-icon{
+    margin-top:28px;
+    margin-bottom:28px;
+} */
 
 .btn-primary{
     background-color:#006A50;
@@ -60,3 +69,147 @@
 }
 
 
+
+
+
+/* Section styles */
+
+.section-title{
+    font-size: 30px;
+    /* font-family: "Fira Sans"; */
+    font-weight: bold;
+}
+
+.future-visions{
+    margin:10px;
+}
+
+.section-description{
+    font-size: 16px;
+    /* font-family: "Fira Sans"; */
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 30px;
+}
+
+.furure-technology-container{
+    display:flex;
+    gap: 20px;
+}
+
+
+.future-tech1{
+    width:33%;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 27px 27px 27px 27px;
+}
+
+.btn-digital-transformation{
+    background-color: #5490F5;
+}
+
+.btn-green-energy{
+    background-color: #09A15C;
+}
+
+.btn-modern-infrastructure{
+    background-color: #FFC239;
+}
+
+.btn-common{
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 26px;
+    padding: 9px 16px 9px 16px;
+    border:none;
+    border-radius:6px;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    -ms-border-radius:6px;
+    -o-border-radius:6px;
+}
+
+.future-tech2{
+    width:33%;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 27px 27px 27px 27px;
+}
+
+.future-tech3{
+    width:33%;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    padding: 27px 27px 27px 27px;
+}
+
+.card-icon{
+    margin: 25px auto 25px auto;
+}
+
+
+
+/* article section style */
+
+.article-container{
+    margin: 25px 10px 20px 10px;
+}
+
+.page-header{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.news-container{
+    display: flex;
+    gap: 22px;
+    margin: 28px 0 28px 0px;
+    padding: 30px 50px 30px 30px;
+    align-items: center;
+    background:#D3D3D3;
+    border-radius: 20px;
+}
+
+
+
+.second-news{
+    margin-top: 20px;
+}
+.img-content{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.content-header{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.news-content{
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-content{
+    padding: 9px 16px 9px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: none;
+    background: rgb(0, 106, 80);
+    color: white;
+    margin-top: 28px;
+}
