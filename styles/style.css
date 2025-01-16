@@ -118,6 +118,47 @@ body{
     background-color: #FFC239;
 }
 
+
+.article-yunus{
+    margin: 30px 10px 70px 10px;
+    padding: 30px 10px 30px 10px;
+    background: #D3D3D3;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+#dr-yunus{
+    margin: 20px 0 20px 0;
+}
+
+#bg-img{
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    padding-top:20px;
+}
+
+
+/* shared styles */
+button:hover{
+    background-color: green;
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+    opacity: .7;
+    transition: background-color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -ms-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    -webkit-transform: scale(1.1,  );
+    -moz-transform: scale(1.1,  );
+    -ms-transform: scale(1.1,  );
+    -o-transform: scale(1.1,  );
+}
+
 .btn-common{
     color: rgb(255, 255, 255);
     margin-top: 20px;
@@ -130,6 +171,12 @@ body{
     -ms-border-radius:6px;
     -o-border-radius:6px;
 }
+
+.donate-hover:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+/* ============ */
 
 .future-tech2{
     width:33%;
@@ -276,4 +323,43 @@ body{
     display: block;
     margin: auto;
     margin-top: 20px;
+}
+
+.active-color{
+    background: #C6E4D6;
+}
+
+/* Newsletter styles */
+
+.newsletter{
+    width: 1400px;
+    height: 260px;
+    background: #C6E4D6;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 24px;
+}
+
+.newsletter-title{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 30px 0 30px 0;
+}
+
+.input-area{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding: 8px 0 8px 0;
+    border-radius:6px;
+    border: none;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    -ms-border-radius:6px;
+    -o-border-radius:6px;
+}
+
+.btn-newsletter{
+    background:#006A50;
 }
